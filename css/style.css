@@ -50,8 +50,11 @@ a,a:hover{
 .checksearch button{
     position: absolute;
     margin-left: 190px;
-    color:darkgray
+    color:darkgray;
+   
 }
+
+
 .checksearch button:focus{
   box-shadow:none;
 }
@@ -130,8 +133,11 @@ display: block;
 .Do_headpart h2:after{
 position: absolute;
     content: "";
-    bottom: -11px;
-    left: 532px;
+    bottom: -42px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    margin: auto;
     height: 2px;
     width: 44px;
     background-color: #828181;
@@ -194,8 +200,11 @@ position: absolute;
 .nope h2:after{
 position: absolute;
     content: "";
-    bottom: -11px;
-    left: 532px;
+    bottom: -51px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    margin: auto;
     height: 1px;
     width: 44px;
     background-color: black;
@@ -207,29 +216,31 @@ position: absolute;
 
 .dd{
     background-color: white;
-      border: 1px solid green;
-    width: 14%;
-   color: #2b9b2b;
+      border-right: 1px solid green;;
+}
+.dd a{
+      color: #2b9b2b; 
 }
 .pp{
-    width: 18%; 
-     margin-left: auto;
+
         border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     background-color: #2b9b2b;
    
+}
+.pp p{
+    
 }
 .pp a{
    color: white;  
 }
 .ppp{
   background-color: white;
-    border: 1px solid green;
-    width: 10%;
-     margin-right: auto;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    color: #2b9b2b;
+}
+.ppp a{
+   color: #2b9b2b;  
 }
 
 .greens p{
@@ -239,7 +250,7 @@ position: absolute;
     font-weight: 500;
 }
 .greens{
-    padding: 50px 0px;
+    margin: 50px 0px;
 }
 .images{
     margin-bottom: 20px;
@@ -286,8 +297,11 @@ position: absolute;
 .testimonial_cont h2:after{
 position: absolute;
     content: "";
-    bottom: -11px;
-    left: 532px;
+    bottom: -49px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    margin: auto;
     height: 1px;
     width: 44px;
     background-color: black;
@@ -339,8 +353,11 @@ background-color:transparent;
 .yess h2:after{
 position: absolute;
     content: "";
-    bottom: -11px;
-    left: 532px;
+    bottom: -49px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: 0px;
     height: 1px;
     width: 44px;
     background-color: black;
@@ -390,8 +407,11 @@ position: absolute;
 .nopee h2:after{
 position: absolute;
     content: "";
-    bottom: -11px;
-    left: 532px;
+    bottom: -45px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    margin: auto;
     height: 1px;
     width: 44px;
     background-color: black;
@@ -454,11 +474,15 @@ position: absolute;
 .images3:after{
 position: absolute;
     content: "";
-    top: 145px;
-    left: 82px;
-    height: 80px;
+    top: 0px;
+    bottom: -230px;
+    right: 0px;
+    left: 0px;
+    height: 86px;
+    margin: auto;
     width: 2px;
     background-color: #207b20;
+
 }
 .team_work{
     padding-top: 45px;
@@ -483,11 +507,14 @@ position: absolute;
     margin-top: 30px;
     margin-bottom: 50px;
 }
-.about_us h2:after{
-position: absolute;
+.about_us h2:after {
+    position: absolute;
     content: "";
-    bottom: -11px;
-    left: 155px;
+    bottom: -50px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
     height: 2px;
     width: 40px;
     background-color: #dddddd;
@@ -529,10 +556,13 @@ position: absolute;
     margin-bottom: 25px;
 }
 .Recent_posts h2:after{
-position: absolute;
+    position: absolute;
     content: "";
-    bottom: -11px;
-    left: 155px;
+    bottom: -50px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
     height: 2px;
     width: 40px;
     background-color: #dddddd;
@@ -588,10 +618,13 @@ position: absolute;
     margin-bottom: 20px;
 }
 .contact_us h2:after{
-position: absolute;
+    position: absolute;
     content: "";
-    bottom: -11px;
-    left: 155px;
+    bottom: -50px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
     height: 2px;
     width: 40px;
     background-color: #dddddd;
@@ -662,8 +695,11 @@ position: absolute;
 .footer_head h2:after{
 position: absolute;
     content: "";
-    bottom: -11px;
-    left: 528px;
+    bottom: -49px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    margin: auto;
     height: 1px;
     width: 44px;
     background-color: black;
