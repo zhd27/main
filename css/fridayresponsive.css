@@ -1,142 +1,257 @@
-/*
+
 @media (min-width: 320px) and (max-width: 575.98px) {
     
     .navbar-nav .nav-item .nav-link{
-    font-size: 18px;    
+    
            text-align: center;
-           background-color: darkgrey;
-           color: black;
-           font-weight: bold;
+
     }
     .navbar-nav .nav-item .nav-link.active{
-          color: black;
-           font-weight: bold;
+       
     }
 
+    .checksearch input{
+     display: none;
+    }
+
+    .navbar-toggler-icon{
+        background-color: beige;
+        border-radius: 5px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0.25rem white;
+    }
+    .navbar-light .navbar-toggler{
+            color: white;
+            border-color: saddlebrown;    
+    }
+    .backgrround{
+        height: 600px;
+    }
+    .banner_content h1 {
+    font-size: 45px;
+        margin-bottom: 60px;
+    }
+    .banner_content a {
+    font-size: 18px;
+    }
+    .banner_content span {
+       margin-top: 120px;
+    }
+    .banner_content {
+    margin-top: 150px;
+    }
+    .alldo_content h4 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .alldo_content {
+    padding: 45px 0px;
+    }
+    .alldo_content p {
+ 
+    margin-bottom: 25px;
+    }
+    .dd{
+        border-radius: 25px;
+      border-bottom: 1px solid green;
+    }
+      .pp{
+        border-radius: 25px;
+    }
+      .ppp{
+        border-radius: 25px;
+    }
+ 
+    .botto,.botto2{
+        margin-top: 12px;
+    }
+    .dopad{
+        margin-bottom: 60px;
+    }
+    .left_img,.right_text{
+        margin-bottom: 20px;
+    }
+    .right_text p {
+    font-size: 14px;
+    }
+    .contact_us{
+        padding: 20px 0px;
+    }
+    .footer_img{
+        margin-bottom: 20px;
+    }
+    .donow{
+        margin-top: 50px;
+    }
 }
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     
-
-
+    .backgrround {
+        height: 720px;
+    }
+    .banner_content {
+        margin-top: 190px;
+    }
+    .banner_content h1{
+        margin-bottom: 80px;
+    }
+    .banner_content h1 {
+        font-size: 65px;
+    }
+    .banner_content span {
+    margin-top: 120px;
+    }
+    .apple{
+        margin-right: 20px;
+    }
+      .dopad{
+        margin-bottom: 60px;
+    }
+     .donow{
+        margin-top: 50px;
+    }
+    .nopee {
+ 
+    margin-bottom: 0px;
+    }
+    .left_img{
+        text-align: right
+    }
+    .form_us{
+        width: 80%;
+        margin: auto;
+    }
+     .footer_img{
+        margin-bottom: 20px;
+    }
+    
+    
 }
     
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-       .navbar-nav .nav-item .nav-link{
-    font-size: 18px;    
+  
+    .navbar-nav .nav-item .nav-link{
+    
            text-align: center;
-           background-color: darkgrey;
-           color: black;
-           font-weight: bold;
+
     }
     .navbar-nav .nav-item .nav-link.active{
-          color: black;
-           font-weight: bold;
+       
     }
 
+    .checksearch input{
+     display: none;
+    }
+
+    .navbar-toggler-icon{
+        background-color: beige;
+        border-radius: 5px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0.25rem white;
+    }
+    .navbar-light .navbar-toggler{
+            color: white;
+            border-color: saddlebrown;    
+    }
+    .banner_content {
+        margin-top: 215px;
+    }
+.banner_content h1 {
+    font-size: 58px;
+    }
+    .banner_content h1{
+        margin-bottom: 100px;
+    }
+    .banner_content span {
+    margin-top: 185px;
+    }
+
+    .dopad{
+     margin-right: 8px;
+        
+    }
+    .text_with_icon p{
+        font-size: 14px;
+    }
+   .text_with_icon span i {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    line-height: 22px;
+    text-align: center;
+    margin-right: 3px;
+    }
+    .text_with_icon span {
+    background-color: #c5e9c5;
+    padding: 9px 6px;
+    }
+    .about_us p {
+    font-size: 14px;
+    }
+   .right_text p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #cccccc;
+    margin-left: 5px;
+    }
+    
 }
     
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    
-    .banner_content h1 {
-    font-size: 140px;
-    }
-    .banner_content p {
-    font-size: 22px;
-    }
-    .banner_content h1:after {
-    top: 364px;
-    }
-    .banner_content a {
-    font-size: 22px;
-    }
-   .there_image {
+ 
 
-    padding: 50px 0px
+.banner_content {
+    text-align: center;
+    margin-top: 240px;   
     }
-    .there_image h4 {
-        font-size: 24px;
+    .banner_content h1 {
+        margin-bottom: 100px;
+        font-size: 65px;
     }
-    .there_image p {
-        font-size: 18px;
+    .banner_content span {
+    margin-top: 170px;
     }
-    .navbar-nav .nav-item .nav-link{
-    font-size: 18px;    
-    }
+
     
 }
+
     
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-     .banner_content h1 {
-    font-size: 150px;
-    }
-    .banner_content p {
-    font-size: 25px;
-    }
-    .middle_content h2 {
-    font-size: 50px;
-    }
-.middle_content p {
-    font-size: 20px;
-    }
- .there_image {
 
-    padding: 50px 0px
+    .banner_content h1 {
+    font-size: 70px;
+        margin-bottom: 60px;
     }
-    .there_image h4 {
-        font-size: 24px;
+      
+    .banner_content {
+    margin-top: 215px
     }
-    .there_image p {
-        font-size: 18px;
-    }
-    .banner_content h1:after {
-  
-    top: 376px;
+    .banner_content span {
+    margin-top: 210px;
     }
     
-    .banner_content a {
-    font-size: 20px;
+    .Do_headpart h2,.nope h2,.testimonial_cont h2,.yess h2,.nopee h2,.footer_head h2 {
+ 
+    font-size: 30px
     }
- .navbar-nav .nav-item .nav-link{
-    font-size: 20px;    
+    .about_us h2,.Recent_posts h2,.contact_us h2 {
+    font-size: 25px
     }
+    
+    
 }
     
-
+/*
 @media (min-width: 1400px) {
-    .there_image {
-
-    padding: 50px 0px
-    }
-    .there_image h4 {
-        font-size: 26px;
-    }
-    .there_image p {
-        font-size: 20px;
-    }
-    
-     .banner_content h1:after {
-  
-    top: 384px;
-    }
-    
-    .banner_content a {
-    font-size: 20px;
-    }
-     .banner_content h1 {
-    font-size: 160px;
-    }
-    .form_content {
-    width: 645px;
-    }
-    .navbar-nav .nav-item .nav-link{
-    font-size: 20px;    
-    }
     
 }
-    
+  
 
 */
